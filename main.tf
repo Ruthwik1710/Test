@@ -47,7 +47,7 @@ resource "aws_instance" "myFirstInstance" {
 #key pair
 resource "aws_key_pair" "Task"{
   key_name = "Task"
-  public_key = "MIIEowIBAAKCAQEAhFV85rOOf5Sl8Ai5/ayRsAUHnen5i+MQPW1kf+W+RlpwJ6me"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCEVXzms45/lKXwCLn9rJGwBQed6fmL4xA9bWR/5b5GWnAnqZ4B06pJUwhb8sxX84NiAamtRF3F0lTk4bNQYuKxgGPPmGPQXUQcKVv1NOiEi6Xu5y3hZYqTaN8StRJSrbR6JAjOquM+a7mpZAEUYvP9otzsQCtkfOOQAjNpsaduEHWfH2DLRV4A4mQ+2VWkn2jaQIz3nDOtfMnuewa3DiFXkY9X6gSbcwGwEHq2Pc7+sQzt+ir3G88Y03nUa7rhUFhMVUdLin6ucJd7velgj1TduIaLnZcrYgguj074Pq2/TxcH3AyuAu2/NpU7Ux4XctS0ZuqEoiutTAhGA+WTuSXX imported-openssh-key"
 }
 
 # Create Elastic IP address
