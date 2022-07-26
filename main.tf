@@ -44,6 +44,10 @@ resource "aws_instance" "myFirstInstance" {
     Name = var.tag_name
   }
 }
+#key pair
+resource "aws_key_pair" "Task"{
+  key_name = "Task"
+}
 
 # Create Elastic IP address
 resource "aws_eip" "myFirstInstance" {
